@@ -415,6 +415,7 @@ body {
     align-items: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 60px;
+    
 }
 
 .nav--footer{
@@ -423,6 +424,8 @@ body {
     gap: 1em;
     grid-auto-flow: row;
     height: 100%;
+    margin-right: 7px;
+    
 }
 
 .nav__link--footer{
@@ -430,6 +433,7 @@ body {
     margin: 0;
     margin-right: 20px;
     flex-wrap: wrap;
+    margin-right: 7px;
 }
 
 .footer__inputs{
@@ -441,13 +445,16 @@ body {
 .footer__input{
     background-color: #fff;
     height: 50px;
-    display: block;
+    display:block;
     padding-left: 10px;
     border-radius: 6px;
     font-size: 1rem;
     outline: none;
     border: none;
     margin-right: 16px;
+    margin-left: 5px;
+    
+    
 }
 
 .footer__submit{
@@ -461,6 +468,7 @@ body {
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
+    margin-left: 5px;
 }
 
 .footer__copy{
