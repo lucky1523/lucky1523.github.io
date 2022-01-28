@@ -13,5 +13,5 @@ include_once('db.php');
     VALUES ('$nombre','$email','$contraseña')";
     $resul = mysqli_query($conectar , $sql)or trigger_error("Query failed! SQL- Error: ".mysql_error($conectar), E_USER_ERROR); 
 
-    echo "$sql";
+    echo "Tus datos se registraron correctamente!";
 ?>
